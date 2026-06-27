@@ -35,8 +35,13 @@ const login = async (email, password) => {
 const logout = async () => {
   try {
     await api.post('/auth/logout');
-  } finally {
+  }
+  catch (err) {
+    console.error("Server logout failed, clearing local state anyway");
+  } 
+  finally {
     setUser(null);
+    localStorage.clear(); 
     window.location.href = '/';
   }
 };
