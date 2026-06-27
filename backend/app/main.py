@@ -24,7 +24,7 @@ app = FastAPI(title="Project Nexus", lifespan=lifespan)
 
 origins = [
     "http://localhost:5173",
-    "https://nexus-nexus-mu.vercel.app/", # You'll update this after Vercel deploy
+    "https://nexus-nexus-mu.vercel.app", # You'll update this after Vercel deploy
 ]
 
 # CORS
