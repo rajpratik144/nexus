@@ -84,15 +84,28 @@ async def refresh_token(
 
 @router.post("/logout")
 async def logout(response: Response):
-    response.delete_cookie("nexus_access_token", path="/")
-    response.delete_cookie("nexus_refresh_token", path="/")
-    return {"message": "Logged out"}
+    # We must match the COOKIE_PARAMS exactly for the browser to accept the deletion
+    response.delete_cookie(
+        key="nexus_access_token",
+        path="/",
+        samesite="none", # Match production settings
+        httponly=True,
+        secure=True      # Match production settings
+    )
+    response.delete_cookie(
+        key="nexus_refresh_token",
+        path="/",
+        samesite="none",
+        httponly=True,
+        secure=True
+    )
+    return {"message": "Logged out successfully"}
 
-@router.post("/logout")
-async def logout(response: Response):
-    response.delete_cookie("nexus_access_token")
-    response.delete_cookie("nexus_refresh_token")
-    return {"message": "Logged out"}
+# @router.post("/logout")
+# async def logout(response: Response):
+#     response.delete_cookie("nexus_access_token")
+#     response.delete_cookie("nexus_refresh_token")
+#     return {"message": "Logged out"}
 
 
 @router.get("/me",response_model=schemas.UserOut)
