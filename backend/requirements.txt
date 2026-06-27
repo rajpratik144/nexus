@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+pydantic-settings
+python-dotenv
+python-multipart
+PyJWT
+pwdlib[argon2]
+alembic
+pydantic[email]
+rag-engine @ git+https://github.com/rajpratik144/modular-rag-engine.git
+

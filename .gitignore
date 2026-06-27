@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/nexus/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/temp_uploads/
+backend/nexus_test.db
+backend/nexus_emergency.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.eslintcache
+
+
+# OS
+.DS_Store
+.env
+Thumbs.db

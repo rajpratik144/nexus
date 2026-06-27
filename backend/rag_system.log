@@ -1,0 +1,481 @@
+2026-06-26 12:09:07,026 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:09:07,026 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:09:07,345 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:09:07,345 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 18a679db-b3af-45fd-a447-d5989d468899 ---
+2026-06-26 12:09:07,907 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-26 12:09:23,854 - UniversalParser - INFO - Successfully processed 1 pages.
+2026-06-26 12:09:23,855 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:09:25,431 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:09:27,655 - StorageManager - INFO - Successfully saved 18a679db-b3af-45fd-a447-d5989d468899_Biodata.jpg with ID: 23e41db4-9ef3-44d7-ac26-4fbb89c7c8f1
+2026-06-26 12:10:09,159 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:10:09,161 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:10:09,280 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:20:35,352 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:20:35,352 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:20:35,483 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:23:16,843 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:23:16,843 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:23:16,978 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:31:31,341 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:31:31,343 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:31:31,658 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:37:10,912 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:37:10,913 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:37:11,094 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:39:20,435 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:39:20,437 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:39:20,570 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:39:22,098 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:39:23,678 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:39:25,020 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:39:26,158 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:39:26,477 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:39:27,604 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:44:29,762 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:44:29,764 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:44:30,063 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:44:32,281 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:44:33,462 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:44:34,837 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:44:36,020 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:44:36,336 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:44:37,558 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:46:32,762 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:46:32,762 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:46:32,903 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:47:14,646 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:47:14,646 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:47:14,768 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:47:14,769 - StorageManager - INFO - Deleting document 23e41db4-9ef3-44d7-ac26-4fbb89c7c8f1 for user 18a679db-b3af-45fd-a447-d5989d468899
+2026-06-26 12:47:40,469 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:47:40,469 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:47:40,668 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:51:23,501 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 12:51:23,502 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 12:51:23,649 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 12:51:23,650 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 18a679db-b3af-45fd-a447-d5989d468899 ---
+2026-06-26 12:51:25,102 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-26 12:51:29,864 - UniversalParser - INFO - Successfully processed 1 pages.
+2026-06-26 12:51:29,864 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 12:51:31,359 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 12:51:37,105 - StorageManager - INFO - Successfully saved 18a679db-b3af-45fd-a447-d5989d468899_Biodata.jpg with ID: 3544ec2d-faa6-40cb-a675-9c5c58f85dc2
+2026-06-26 15:30:03,847 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:30:03,848 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:30:04,080 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:30:15,356 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:30:15,356 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:30:15,462 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:30:20,473 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:30:20,473 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:30:20,592 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:30:49,579 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:30:49,579 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:30:49,702 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:30:53,085 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:30:54,587 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:30:55,988 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:30:57,147 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:30:57,476 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:30:58,687 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:32:06,622 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:32:06,622 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:32:06,735 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:32:37,410 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:32:37,411 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:32:37,531 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:32:39,557 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:32:40,881 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:32:42,125 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:32:43,645 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:32:43,982 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:32:45,189 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:33:22,951 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:33:22,951 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:33:23,069 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:33:25,126 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:33:26,654 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:33:28,299 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:33:29,518 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:33:29,936 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:33:31,164 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:36:25,188 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:36:25,190 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:36:25,383 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:37:36,633 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:37:36,634 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:37:36,827 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:50:54,567 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:50:54,569 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:50:54,723 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:51:25,182 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:51:25,182 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:51:25,296 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:51:27,100 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:51:28,373 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:51:29,915 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:51:31,062 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:51:31,451 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:51:32,669 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:52:13,223 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:52:13,224 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:52:13,347 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:52:15,600 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:52:17,177 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:52:18,452 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:52:19,672 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:52:19,999 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:52:21,209 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:53:05,983 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:53:05,984 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:53:06,238 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:53:08,736 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:53:09,950 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:53:37,395 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:53:37,396 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:53:37,521 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:53:39,860 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:53:41,373 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:53:43,033 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:53:44,251 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:53:44,671 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:53:45,798 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:55:35,677 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 15:55:35,678 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 15:55:35,827 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 15:55:37,924 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:55:39,860 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:55:41,506 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:55:43,344 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 15:55:43,735 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 15:55:45,478 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:04:13,633 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-26 17:04:13,635 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-26 17:04:13,921 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-26 17:04:16,069 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:04:17,449 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:04:18,939 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:04:20,157 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:04:20,558 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:04:21,789 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:04:55,888 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:04:57,108 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:04:58,243 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:04:59,463 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:04:59,777 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:05:00,999 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:05:28,327 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 175992e3-ae5b-43b1-aa6a-92aa54f747a9 ---
+2026-06-26 17:05:29,292 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-26 17:05:40,095 - UniversalParser - INFO - Successfully processed 15 pages.
+2026-06-26 17:05:40,097 - EmbeddingEngine - INFO - Generating embeddings for 15 chunks individually...
+2026-06-26 17:05:54,258 - EmbeddingEngine - INFO -    Progress: 10/15 chunks processed...
+2026-06-26 17:06:01,314 - EmbeddingEngine - INFO - Successfully generated 15 vectors (768-dim).
+2026-06-26 17:06:05,228 - StorageManager - INFO - Successfully saved 175992e3-ae5b-43b1-aa6a-92aa54f747a9_1706.03762v7.pdf with ID: e566fa71-1c2e-4f17-884f-aaf2e66bebba
+2026-06-26 17:06:26,005 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:06:27,555 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:06:28,558 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:06:29,675 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:06:29,991 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:06:31,220 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:07:28,975 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:07:30,193 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:07:31,533 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:07:32,651 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:07:32,966 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:07:34,068 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:08:16,521 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:08:17,647 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:08:18,943 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:08:20,065 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:08:20,402 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:08:21,595 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:09:38,202 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:09:39,522 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:09:40,862 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:09:42,079 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:09:42,338 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:09:43,517 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:10:14,879 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:10:16,181 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:10:17,827 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:10:19,661 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:10:19,977 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:10:21,200 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:11:32,278 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:11:33,594 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:11:34,975 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:11:36,150 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:11:36,470 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:11:37,690 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:13:50,103 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:13:51,628 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:13:52,918 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:13:54,082 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:13:54,363 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:13:55,520 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:15:12,569 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:15:14,161 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:15:15,302 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:15:16,516 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:15:16,857 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:15:18,050 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:15:37,639 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:15:38,837 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:15:40,075 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:15:41,196 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:15:41,509 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:15:42,729 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:16:11,234 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:16:12,731 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:16:14,289 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:16:15,701 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-26 17:16:16,017 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-26 17:16:17,237 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:25:04,073 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 10:25:04,074 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 10:26:12,341 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 10:26:12,342 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 10:32:56,614 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 10:32:56,615 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 10:33:00,120 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 10:33:45,389 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:33:46,787 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:33:48,179 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:33:49,353 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:33:49,667 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:33:50,886 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:34:23,051 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:34:24,269 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:34:25,393 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:34:26,621 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:34:26,939 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:34:27,121 - EmbeddingEngine - WARNING - Cloud API busy (503 UNAVAILABLE. {'ERROR': {'CODE': 503, 'MESSAGE': 'THE SERVICE IS CURRENTLY UNAVAILABLE.', 'STATUS': 'UNAVAILABLE'}}). Retrying in 10s...
+2026-06-27 10:34:38,603 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:35:33,193 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:35:34,514 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:35:35,957 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:35:37,103 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:35:37,390 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:35:38,636 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:40:34,436 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 10:40:34,437 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 10:40:34,617 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 10:40:57,700 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 10:40:57,702 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 10:40:58,021 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 10:43:08,545 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 10:43:08,545 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 10:43:08,676 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 10:46:13,941 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:46:15,229 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:46:16,486 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:46:17,683 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:46:18,001 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:46:19,216 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:46:53,738 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:46:55,059 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:46:56,298 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:46:57,415 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:46:58,038 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:46:59,668 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:55:14,087 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:55:15,608 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:55:17,464 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:55:18,686 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:55:19,308 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:55:20,428 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:56:48,203 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:56:49,729 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:56:51,684 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:56:52,901 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:56:53,730 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:56:54,846 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:58:37,753 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 175992e3-ae5b-43b1-aa6a-92aa54f747a9 ---
+2026-06-27 10:58:38,191 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-27 10:58:58,779 - UniversalParser - INFO - Successfully processed 2 pages.
+2026-06-27 10:58:58,780 - EmbeddingEngine - INFO - Generating embeddings for 2 chunks individually...
+2026-06-27 10:59:01,517 - EmbeddingEngine - INFO - Successfully generated 2 vectors (768-dim).
+2026-06-27 10:59:03,592 - StorageManager - INFO - Successfully saved 175992e3-ae5b-43b1-aa6a-92aa54f747a9_OS Assignment #1 - 2025.docx with ID: 16df6e58-6f4d-402e-a6f3-1b4c2db8272b
+2026-06-27 10:59:26,820 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:59:28,343 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:59:29,889 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:59:31,020 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 10:59:31,630 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 10:59:32,746 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:00:10,134 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:00:11,451 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:00:13,000 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:00:14,221 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:00:14,535 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:00:15,761 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:02:17,928 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:02:19,454 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:02:20,998 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:02:22,115 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:02:22,656 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:02:23,860 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:03:21,312 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:03:22,834 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:03:24,213 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:03:25,307 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:03:25,784 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:03:26,910 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:10:33,222 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 11:10:33,223 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 11:10:33,360 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 11:18:43,469 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:18:45,592 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:18:46,955 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:18:48,751 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:18:49,068 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:18:50,186 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:20:48,365 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:20:50,402 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:20:51,640 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:20:53,369 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:20:53,688 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:20:55,422 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:25:06,196 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 11:25:06,196 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 11:25:06,327 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 11:26:14,384 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:26:15,780 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:26:17,075 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:26:18,237 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:26:18,552 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 11:26:19,657 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 11:30:48,439 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 175992e3-ae5b-43b1-aa6a-92aa54f747a9 ---
+2026-06-27 11:30:48,923 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-27 11:31:09,533 - UniversalParser - INFO - Successfully processed 8 pages.
+2026-06-27 11:31:09,536 - EmbeddingEngine - INFO - Generating embeddings for 8 chunks individually...
+2026-06-27 11:31:21,444 - EmbeddingEngine - INFO - Successfully generated 8 vectors (768-dim).
+2026-06-27 11:31:23,823 - StorageManager - INFO - Successfully saved 175992e3-ae5b-43b1-aa6a-92aa54f747a9_AI Lab.docx with ID: 113c23c4-9529-4efb-8462-2d3849bfa915
+2026-06-27 14:10:31,691 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:10:31,693 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:10:31,884 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:10:51,523 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:10:51,523 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:10:51,645 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:33:26,344 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:33:26,345 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:33:26,613 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:49:49,541 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:49:49,542 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:49:50,020 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:50:24,116 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:50:24,117 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:50:24,460 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:51:10,297 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:51:10,297 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:51:10,452 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:53:32,227 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:53:32,227 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:53:32,419 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:53:54,285 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:53:54,285 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:53:54,442 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:54:16,635 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:54:16,636 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:54:16,761 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:57:48,614 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:57:48,616 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:57:48,750 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:58:13,149 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:58:13,150 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:58:13,544 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 14:58:32,226 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 14:58:32,226 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 14:58:32,545 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:02:30,063 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:02:30,064 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:02:30,213 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:02:46,815 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:02:46,815 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:02:46,975 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:03:08,868 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:03:08,869 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:03:09,039 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:04:59,724 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:04:59,724 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:04:59,854 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:06:26,644 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:06:26,644 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:06:26,775 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:09:07,667 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:09:07,667 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:09:07,808 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:10:04,875 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:10:04,875 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:10:05,183 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:10:54,095 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:10:54,095 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:10:54,305 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:12:09,785 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:12:09,789 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:12:10,245 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:16:26,539 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:16:26,539 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:16:26,668 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:17:05,895 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:17:05,895 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:17:06,084 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:17:40,074 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:17:40,074 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:17:40,490 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 15:22:45,922 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 15:22:45,922 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 15:22:46,053 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 16:09:26,565 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 16:09:26,566 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 16:09:26,889 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 16:29:37,960 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 175992e3-ae5b-43b1-aa6a-92aa54f747a9 ---
+2026-06-27 16:29:38,438 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-27 16:29:44,150 - UniversalParser - INFO - Successfully processed 1 pages.
+2026-06-27 16:29:44,150 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 16:29:45,722 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 16:29:47,834 - StorageManager - INFO - Successfully saved 175992e3-ae5b-43b1-aa6a-92aa54f747a9_Biodata.jpg with ID: af3ae464-24a8-4e0f-b364-ee1ab02be92f
+2026-06-27 17:44:58,872 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:45:00,139 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:45:01,991 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:45:03,212 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:45:03,625 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:45:04,877 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:45:45,508 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 176df809-f26b-4720-b65d-65aa5c3ddbe5 ---
+2026-06-27 17:45:45,984 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-27 17:45:46,014 - UniversalParser - INFO - Successfully processed 0 pages.
+2026-06-27 17:47:05,503 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 17:47:05,505 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 17:47:05,632 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 17:47:27,911 - RAGCoreEngine - INFO - --- Starting Ingestion for User: 176df809-f26b-4720-b65d-65aa5c3ddbe5 ---
+2026-06-27 17:47:28,390 - UniversalParser - INFO - Starting Visual Parsing for 1 files...
+2026-06-27 17:47:43,890 - UniversalParser - INFO - Successfully processed 1 pages.
+2026-06-27 17:47:43,890 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:47:45,451 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:47:47,463 - StorageManager - INFO - Successfully saved 176df809-f26b-4720-b65d-65aa5c3ddbe5_Bihar Bhumi.pdf with ID: dc41a894-2dd3-4232-b99a-e8ba4370fd36
+2026-06-27 17:48:14,199 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:48:15,559 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:48:17,208 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:48:18,422 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:48:18,847 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:48:20,063 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:48:31,027 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:48:32,353 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:48:33,998 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:48:35,218 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:48:35,640 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:48:36,853 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:49:01,650 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:49:02,865 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:49:04,309 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:49:05,406 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:49:05,744 - EmbeddingEngine - INFO - Generating embeddings for 1 chunks individually...
+2026-06-27 17:49:07,172 - EmbeddingEngine - INFO - Successfully generated 1 vectors (768-dim).
+2026-06-27 17:49:42,931 - StorageManager - INFO - Deleting document dc41a894-2dd3-4232-b99a-e8ba4370fd36 for user 176df809-f26b-4720-b65d-65aa5c3ddbe5
+2026-06-27 17:57:25,683 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 17:57:25,684 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 17:57:25,917 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 17:58:39,048 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 17:58:39,049 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 17:58:39,230 - RAGCoreEngine - INFO - ENGINE is fueled and ready.
+2026-06-27 18:00:07,456 - EmbeddingEngine - INFO - Google GenAI initialized with: gemini-embedding-2-preview
+2026-06-27 18:00:07,456 - StorageManager - INFO - StorageManager initialized. Database Dialect: postgresql
+2026-06-27 18:00:07,594 - RAGCoreEngine - INFO - ENGINE is fueled and ready.

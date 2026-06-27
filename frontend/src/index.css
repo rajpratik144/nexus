@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* 1. Define the manual dark mode variant for Tailwind v4 */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 2. Global SaaS Styles */
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --transition-speed: 0.3s;
+}
+
+.dark {
+  --background: #0f172a;
+  --foreground: #f8f9fa;
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
+  font-family: 'Inter', system-ui, sans-serif;
+  overscroll-behavior-y: none; 
+}
+
+/* 3. SHAKING FIX: Scroll Stability */
+.chat-scroll-container {
+  overflow-anchor: none;
+}
+
+.prose {
+  overflow-anchor: none;
+  contain: content;
+}
+
+/* 4. MERMAID REPAIR */
+.mermaid-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: visible !important;
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 1rem;
+}
+
+.dark .mermaid-container {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.mermaid-container svg {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+}
+
+/* 5. MARKDOWN & CODE STYLING (Fixed v4 Syntax) */
+
+/* Tables */
+.prose table {
+  /* Use the ! prefix on each utility class instead of !important at the end */
+  @apply !text-sm !w-full !my-6 !border-collapse !shadow-sm;
+  display: block;
+  overflow-x: auto;
+}
+
+.prose th {
+  @apply !bg-slate-50 dark:!bg-slate-800/50 !border !border-slate-200 dark:!border-slate-700 !p-3 !text-left !font-bold;
+}
+
+.prose td {
+  @apply !border !border-slate-200 dark:!border-slate-700 !p-3 !text-left;
+}
+
+/* Code Blocks & Pre */
+pre {
+  background-color: #f8fafc !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 0.75rem !important;
+  padding: 1.25rem;
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  position: relative;
+}
+
+.dark pre {
+  background-color: #020617 !important;
+  border: 1px solid #1e293b !important;
+}
+
+code {
+  /* Fixed v4 Syntax */
+  @apply !font-mono !text-sm;
+}
+
+/* 6. UI COMPONENT STYLING */
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  /* Fixed v4 Syntax */
+  @apply !bg-slate-300/50 dark:!bg-slate-700/50 !rounded-full hover:!bg-slate-400 dark:hover:!bg-slate-600;
+}
+
+input:focus {
+  outline: none;
+}
