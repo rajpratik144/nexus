@@ -48,13 +48,18 @@ def login(response: Response, form_data: OAuth2PasswordRequestForm = Depends(), 
     if not user or not security.verify_password(form_data.password, user.password_hash):
         raise HTTPException(status_code=401, detail="Invalid credentials")
 
+    # 1. DELETE ANY EXISTING REFRESH TOKENS FOR THIS USER FIRST
+    db.query(models.RefreshToken).filter(models.RefreshToken.user_id == user.id).delete()
+
     access_token = security.create_access_token(data={"sub": user.email})
     refresh_token_str, expires_at = security.create_refresh_token(data={"sub": user.email})
 
-    # Save refresh token in DB
+    # 2. Now save the new token
     db_refresh = models.RefreshToken(token=refresh_token_str, user_id=user.id, expires_at=expires_at)
     db.add(db_refresh)
     db.commit()
+
+    # ... keep cookie settings as they were ...
 
     # Set cookies
     response.set_cookie(key="nexus_access_token", value=access_token, max_age=900, **COOKIE_PARAMS)
@@ -99,7 +104,7 @@ async def logout(response: Response):
         httponly=True,
         secure=True
     )
-    return {"message": "Logged out successfully"}
+    return {"message": "Logged out successfully"}              
 
 # @router.post("/logout")
 # async def logout(response: Response):
