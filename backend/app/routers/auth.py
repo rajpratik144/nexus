@@ -42,25 +42,25 @@ COOKIE_PARAMS = {
     "path": "/"      # Crucial: makes cookie available to all routes
 }
 
+
 @router.post("/login")
 def login(response: Response, form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     user = db.query(models.User).filter(models.User.email == form_data.username).first()
+    
     if not user or not security.verify_password(form_data.password, user.password_hash):
         raise HTTPException(status_code=401, detail="Invalid credentials")
 
-    # 1. DELETE ANY EXISTING REFRESH TOKENS FOR THIS USER FIRST
+    # --- FIX: CLEAR OLD TOKENS ---
     db.query(models.RefreshToken).filter(models.RefreshToken.user_id == user.id).delete()
+    db.commit()
 
     access_token = security.create_access_token(data={"sub": user.email})
     refresh_token_str, expires_at = security.create_refresh_token(data={"sub": user.email})
 
-    # 2. Now save the new token
     db_refresh = models.RefreshToken(token=refresh_token_str, user_id=user.id, expires_at=expires_at)
     db.add(db_refresh)
     db.commit()
-
-    # ... keep cookie settings as they were ...
-
+    
     # Set cookies
     response.set_cookie(key="nexus_access_token", value=access_token, max_age=900, **COOKIE_PARAMS)
     response.set_cookie(key="nexus_refresh_token", value=refresh_token_str, max_age=604800, **COOKIE_PARAMS)
