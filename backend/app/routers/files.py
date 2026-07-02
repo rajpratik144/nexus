@@ -27,7 +27,7 @@ async def upload_file(file: UploadFile = File(...),db: Session = Depends(get_db)
 
         # trigger ingestion the rag engine return a list of doc_ids
 
-        doc_ids = engine.ingest([file_path],current_user.id)
+        doc_ids = await engine.ingest([file_path], current_user.id)
 
         if not doc_ids:
             raise HTTPException(status_code = 500,detail="Ingestion Failed.")
