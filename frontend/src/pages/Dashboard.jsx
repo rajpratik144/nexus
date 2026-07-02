@@ -190,31 +190,33 @@ const handleDeleteChat = async (e, chatId) => {
         </header>
 
         {/* Messages Container */}
-        <div className="flex-1 overflow-y-auto p-6 md:p-12 space-y-8 scroll-smooth chat-scroll-container custom-scrollbar">
-          {!activeChat && messages.length === 0 ? (
-            <div className="h-full flex flex-col items-center justify-center text-center">
-              <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
-                <div className="w-20 h-20 bg-blue-600/10 text-blue-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-inner">
-                  <MessageSquare size={40} />
-                </div>
-                <h2 className="text-4xl font-bold dark:text-white mb-3 tracking-tight">
-                  How can <span className="text-blue-600">Nexus</span> help?
-                </h2>
-                <p className="text-slate-400 max-w-sm mx-auto leading-relaxed">
-                  Start a new chat or open the Knowledge Vault to begin querying your documents.
-                </p>
-              </motion.div>
-            </div>
-          ) : (
-            messages.map((msg, i) => (
-              <ChatMessage key={i} msg={msg} />
-            ))
-          )}
-          <div ref={messagesEndRef} className="h-4" /> 
+        <div className="flex-1 overflow-y-auto p-4 md:p-12 space-y-8 scroll-smooth chat-scroll-container custom-scrollbar">
+          <div className="max-w-4xl mx-auto w-full">
+            {!activeChat && messages.length === 0 ? (
+              <div className="h-full flex flex-col items-center justify-center text-center">
+                <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}>
+                  <div className="w-20 h-20 bg-blue-600/10 text-blue-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-inner">
+                    <MessageSquare size={40} />
+                  </div>
+                  <h2 className="text-4xl font-bold dark:text-white mb-3 tracking-tight">
+                    How can <span className="text-blue-600">Nexus</span> help?
+                  </h2>
+                  <p className="text-slate-400 max-w-sm mx-auto leading-relaxed">
+                    Start a new chat or open the Knowledge Vault to begin querying your documents.
+                  </p>
+                </motion.div>
+              </div>
+            ) : (
+              messages.map((msg, i) => (
+                <ChatMessage key={i} msg={msg} />
+              ))
+            )}
+            <div ref={messagesEndRef} className="h-4" />
+          </div>
         </div>
 
         {/* Input Bar */}
-        <div className="p-6 bg-gradient-to-t from-white dark:from-slate-950 via-white/90 dark:via-slate-950/90 to-transparent">
+        <div className="p-6 bg-linear-to-t from-white dark:from-slate-950 via-white/90 dark:via-slate-950/90 to-transparent">
           <form onSubmit={handleSend} className="max-w-4xl mx-auto relative flex items-center gap-3">
             <div className="relative flex-1 group">
               <input 
